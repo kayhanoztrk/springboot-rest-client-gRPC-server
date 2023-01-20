@@ -1,0 +1,16 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.github.dev.proto.v1;
+
+message ProductRequest{
+    int32 productId = 1;
+}
+
+message ProductResponse{
+    int32 productId = 1;
+    string productName = 2;
+}
+
+service ProductService{
+    rpc getProductById(ProductRequest) returns(ProductResponse) {};
+}

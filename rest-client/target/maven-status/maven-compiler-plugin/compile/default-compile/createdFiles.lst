@@ -1,0 +1,4 @@
+org/example/Main.class
+org/example/service/impl/ProductServiceImpl.class
+org/example/controller/ProductController.class
+org/example/service/ProductService.class
